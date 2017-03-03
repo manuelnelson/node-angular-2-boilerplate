@@ -1,0 +1,11 @@
+<header>
+	<nav>
+		<div class="menu" (click)="toggleMenu()">
+			<span class="menu-button" [ngClass]="{'close':showMenu}"></span>
+		</div>
+	</nav>
+	<div class="mobile-menu" [ngClass]="{'show':showMenu}">
+		<ul>
+		</ul>
+	</div>
+</header>

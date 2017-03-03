@@ -1,0 +1,110 @@
+@mixin clearfix {
+    &:after {
+        clear: both;
+    }
+
+    &:before,
+    &:after {
+        display: table;
+        content: ' ';
+    }
+}
+
+@mixin borderBox {
+    box-sizing: border-box;
+}
+
+@mixin display($display: block) {
+    display: $display;
+
+    @if ($display == inline-block and $legacy_support_for_ie) {
+        *display: inline;
+        zoom: 1;
+    }
+}
+
+/// Helper mixin to size elements
+/// @param {Number} $width - Width
+/// @param {Number} $height ($width) - Height
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+@mixin transition($property: all, $timing: $transition-timing) {
+	transition: $property #{$timing+ms} $transition-ease 0s;
+}
+@mixin text-transition($textColor:$color-primary-inverse, $hoverColor: $color-white) {
+    color: $color-primary-inverse;
+    position: relative;
+    display: inline-block;
+    $line-height:1px;
+    &:before{
+        content:"";
+        position: absolute;
+        display: inline-block;
+        width: 0;
+        height: $line-height;
+        bottom: 0;
+        left:0;
+        transition: width 0.3s;
+        background-color:$color-white;
+    }
+    &:hover{
+        color:$color-white;
+        &:before{
+            width: 100%;
+        }
+    }
+}
+//Breakpoints
+@mixin bp-max($custom-px){
+	@media screen and (max-width: $custom-px){
+	  @content;
+	}
+}
+
+@mixin bp-min($custom-px){
+	@media screen and (min-width: $custom-px){
+	  @content;
+	}
+}
+@mixin bp-max-height($custom-px){
+	@media screen and (max-height: $custom-px){
+	  @content;
+	}
+}
+@mixin edges($color:$color-black, $border-color:$color-black,$border-width:1px){
+    font-size: px-to-rem(14px);
+    text-transform: uppercase;
+    letter-spacing: 1.2;
+    position: relative;
+    padding: px-to-rem(15px) px-to-rem(30px);
+    display: inline-block;
+    color: $color;
+    &:before,&:after{
+        content:' ';
+        position: absolute;
+        min-width: 40px;
+        min-height: 80%;
+        transition: min-width 0.3s ease-in-out, min-height 0.3s ease-in-out;
+    }
+    &:before{
+        top: 0;
+        left:0;
+        border-left: solid $border-width $border-color;
+        border-top: solid $border-width $border-color;
+    }
+    &:after{
+        bottom: 0;
+        right:0;
+        border-right: solid $border-width $border-color;
+        border-bottom: solid $border-width $border-color;
+    }
+    &:hover{
+        &:before, &:after{
+            min-width: calc(100% - #{$border-width});
+            min-height: calc(100% - #{$border-width});
+        }
+    }
+}

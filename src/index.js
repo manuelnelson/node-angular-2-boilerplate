@@ -11,6 +11,9 @@ import config from './config.json';
 let app = express();
 app.server = http.createServer(app);
 
+//static files
+app.use(express.static('public'));
+
 // logger
 app.use(morgan('dev'));
 

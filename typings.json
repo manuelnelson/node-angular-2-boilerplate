@@ -1,0 +1,7 @@
+{
+  "name": "node-angular-2-boilerplate",
+  "dependencies": {},
+  "globalDependencies": {
+    "node": "registry:env/node#6.0.0+20170213133316"
+  }
+}
