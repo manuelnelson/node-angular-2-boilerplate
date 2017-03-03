@@ -4,7 +4,7 @@
   "description": "Starter project for an ES6 RESTful Angular Two API",
   "main": "dist",
   "scripts": {
-    "build:backend": "babel src --ignore client,webpack,public -s -D -d dist --presets es2015,stage-0",
+    "build:backend": "babel src/server --ignore client,webpack,public -s -D -d dist --presets es2015,stage-0",
     "build:dev": "webpack --env=dev --config ./src/webpack/webpack.dev.js",
     "build:prod": "webpack --env=prod --config ./src/webpack/webpack.prod.js",
     "dev": "webpack-dev-server --config ./src/webpack/webpack.dev.js",
