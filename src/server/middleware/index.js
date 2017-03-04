@@ -1,10 +1,10 @@
 import { Router } from 'express';
-
+import { path } from 'path';
 export default ({ config, db }) => {
 	let routes = Router();
 
 	// add middleware here
-	routes.get('/', ({req,res}) => {res.send('index.html')})
+	routes.get('/', ({req,res}) => {res.sendFile(path.join(__dirname + '/index.html'));})
 
 	return routes;
 }
