@@ -2402,7 +2402,7 @@ function literal(value, type) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__aot_static_symbol__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__facade_collection__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__facade_collection__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__facade_lang__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__private_import_core__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__selector__ = __webpack_require__(95);
@@ -5105,7 +5105,7 @@ function defaultUrlMatcher(segments, segmentGroup, route) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_observable_fromPromise__ = __webpack_require__(172);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_observable_fromPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_observable_fromPromise__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_of__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_of__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_concatAll__ = __webpack_require__(176);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_concatAll___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_operator_concatAll__);
@@ -6484,8 +6484,7 @@ ResponseContentType[ResponseContentType.Blob] = "Blob";
 
 /***/ }),
 /* 40 */,
-/* 41 */,
-/* 42 */
+/* 41 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6668,7 +6667,7 @@ function iterateListLike(obj, fn) {
 //# sourceMappingURL=collection.js.map
 
 /***/ }),
-/* 43 */
+/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6731,7 +6730,7 @@ var HtmlParser = (function (_super) {
 //# sourceMappingURL=html_parser.js.map
 
 /***/ }),
-/* 44 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7037,7 +7036,7 @@ var /** @type {?} */ NAMED_ENTITIES = {
 //# sourceMappingURL=tags.js.map
 
 /***/ }),
-/* 45 */
+/* 44 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7410,7 +7409,7 @@ function _resolveUrl(base, url) {
 //# sourceMappingURL=url_resolver.js.map
 
 /***/ }),
-/* 46 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7548,7 +7547,7 @@ function getHandleEventMethodName(elementIndex) {
 //# sourceMappingURL=util.js.map
 
 /***/ }),
-/* 47 */
+/* 46 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8347,6 +8346,7 @@ function UrlParser_tsickle_Closure_declarations() {
 //# sourceMappingURL=url_tree.js.map
 
 /***/ }),
+/* 47 */,
 /* 48 */,
 /* 49 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -9490,7 +9490,7 @@ function SimpleExpressionChecker_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ast__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__interpolation_config__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__lexer__ = __webpack_require__(332);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__tags__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__tags__ = __webpack_require__(43);
 /* unused harmony export TreeError */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ParseTreeResult; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Parser; });
@@ -10009,10 +10009,10 @@ function lastOnStack(stack, element) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__url_tree__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__url_tree__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils_collection__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils_tree__ = __webpack_require__(169);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return RouterState; });
@@ -11612,12 +11612,12 @@ function convertStmtIntoExpression(stmt) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__facade_lang__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__injectable__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ml_parser_ast__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ml_parser_html_parser__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ml_parser_html_parser__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ml_parser_interpolation_config__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__resource_loader__ = __webpack_require__(136);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__style_url_resolver__ = __webpack_require__(204);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__template_parser_template_preparser__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__url_resolver__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__url_resolver__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__util__ = __webpack_require__(19);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DirectiveNormalizer; });
 /**
@@ -11939,7 +11939,7 @@ function TemplatePreparseVisitor_tsickle_Closure_declarations() {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_collection__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_collection__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__facade_lang__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__injectable__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__private_import_core__ = __webpack_require__(9);
@@ -12726,7 +12726,7 @@ function unescape(code) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__private_import_core__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__schema_element_schema_registry__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__summary_resolver__ = __webpack_require__(137);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__url_resolver__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__url_resolver__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__util__ = __webpack_require__(19);
 /* unused harmony export ERROR_COLLECTOR_TOKEN */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CompileMetadataResolver; });
@@ -13863,7 +13863,7 @@ function stringifyType(type) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_collection__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_collection__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__facade_lang__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__injectable__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__private_import_core__ = __webpack_require__(9);
@@ -13948,7 +13948,7 @@ function NgModuleResolver_tsickle_Closure_declarations() {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_collection__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_collection__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__facade_lang__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__injectable__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__private_import_core__ = __webpack_require__(9);
@@ -14049,10 +14049,10 @@ function PipeResolver_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__identifiers__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__injectable__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ml_parser_ast__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ml_parser_html_parser__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ml_parser_html_parser__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ml_parser_icu_ast_expander__ = __webpack_require__(331);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ml_parser_interpolation_config__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ml_parser_tags__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ml_parser_tags__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__parse_util__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__private_import_core__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__provider_analyzer__ = __webpack_require__(203);
@@ -15494,13 +15494,13 @@ var XSRFStrategy = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_BehaviorSubject__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_BehaviorSubject__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_BehaviorSubject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_BehaviorSubject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_from__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_from___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_observable_from__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_observable_of__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_observable_of__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_observable_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_concatMap__ = __webpack_require__(177);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_operator_concatMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_operator_concatMap__);
@@ -15524,7 +15524,7 @@ var XSRFStrategy = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__router_state__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__shared__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__url_handling_strategy__ = __webpack_require__(168);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__url_tree__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__url_tree__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__utils_collection__ = __webpack_require__(29);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return NavigationStart; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return NavigationEnd; });
@@ -15778,14 +15778,6 @@ function defaultErrorHandler(error) {
     throw error;
 }
 /**
- * \@internal
- * @param {?} snapshot
- * @return {?}
- */
-function defaultRouterHook(snapshot) {
-    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_rxjs_observable_of__["of"])(null);
-}
-/**
  * Does not detach any subtrees. Reuses routes as long as their route config is the same.
  */
 var DefaultRouteReuseStrategy = (function () {
@@ -15862,15 +15854,6 @@ var Router = (function () {
          * Indicates if at least one navigation happened.
          */
         this.navigated = false;
-        /**
-         * Used by RouterModule. This allows us to
-         * pause the navigation either before preactivation or after it.
-         * @internal
-         */
-        this.hooks = {
-            beforePreactivation: defaultRouterHook,
-            afterPreactivation: defaultRouterHook
-        };
         /**
          * Extracts and merges URLs. Used for Angular 1 to Angular 2 migrations.
          */
@@ -16249,19 +16232,16 @@ var Router = (function () {
             else {
                 urlAndSnapshot$ = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_rxjs_observable_of__["of"])({ appliedUrl: url, snapshot: precreatedState });
             }
-            var /** @type {?} */ beforePreactivationDone$ = __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_mergeMap__["mergeMap"].call(urlAndSnapshot$, function (p) {
-                return __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_map__["map"].call(_this.hooks.beforePreactivation(p.snapshot), function () { return p; });
-            });
             // run preactivation: guards and data resolvers
             var /** @type {?} */ preActivation;
-            var /** @type {?} */ preactivationTraverse$ = __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_map__["map"].call(beforePreactivationDone$, function (_a) {
+            var /** @type {?} */ preactivationTraverse$ = __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_map__["map"].call(urlAndSnapshot$, function (_a) {
                 var appliedUrl = _a.appliedUrl, snapshot = _a.snapshot;
                 preActivation =
                     new PreActivation(snapshot, _this.currentRouterState.snapshot, _this.injector);
                 preActivation.traverse(_this.outletMap);
                 return { appliedUrl: appliedUrl, snapshot: snapshot };
             });
-            var /** @type {?} */ preactivationCheckGuards$ = __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_mergeMap__["mergeMap"].call(preactivationTraverse$, function (_a) {
+            var /** @type {?} */ preactivationCheckGuards = __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_mergeMap__["mergeMap"].call(preactivationTraverse$, function (_a) {
                 var appliedUrl = _a.appliedUrl, snapshot = _a.snapshot;
                 if (_this.navigationId !== id)
                     return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_rxjs_observable_of__["of"])(false);
@@ -16269,7 +16249,7 @@ var Router = (function () {
                     return { appliedUrl: appliedUrl, snapshot: snapshot, shouldActivate: shouldActivate };
                 });
             });
-            var /** @type {?} */ preactivationResolveData$ = __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_mergeMap__["mergeMap"].call(preactivationCheckGuards$, function (p) {
+            var /** @type {?} */ preactivationResolveData$ = __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_mergeMap__["mergeMap"].call(preactivationCheckGuards, function (p) {
                 if (_this.navigationId !== id)
                     return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_rxjs_observable_of__["of"])(false);
                 if (p.shouldActivate) {
@@ -16279,12 +16259,9 @@ var Router = (function () {
                     return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4_rxjs_observable_of__["of"])(p);
                 }
             });
-            var /** @type {?} */ preactivationDone$ = __WEBPACK_IMPORTED_MODULE_9_rxjs_operator_mergeMap__["mergeMap"].call(preactivationResolveData$, function (p) {
-                return __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_map__["map"].call(_this.hooks.afterPreactivation(p.snapshot), function () { return p; });
-            });
             // create router state
             // this operation has side effects => route state is being affected
-            var /** @type {?} */ routerState$ = __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_map__["map"].call(preactivationDone$, function (_a) {
+            var /** @type {?} */ routerState$ = __WEBPACK_IMPORTED_MODULE_8_rxjs_operator_map__["map"].call(preactivationResolveData$, function (_a) {
                 var appliedUrl = _a.appliedUrl, snapshot = _a.snapshot, shouldActivate = _a.shouldActivate;
                 if (shouldActivate) {
                     var /** @type {?} */ state = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_13__create_router_state__["a" /* createRouterState */])(_this.routeReuseStrategy, snapshot, _this.currentRouterState);
@@ -16394,13 +16371,6 @@ function Router_tsickle_Closure_declarations() {
      * @type {?}
      */
     Router.prototype.navigated;
-    /**
-     * Used by RouterModule. This allows us to
-     * pause the navigation either before preactivation or after it.
-     * \@internal
-     * @type {?}
-     */
-    Router.prototype.hooks;
     /**
      * Extracts and merges URLs. Used for Angular 1 to Angular 2 migrations.
      * @type {?}
@@ -17036,7 +17006,7 @@ function validateCommands(commands) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_fromPromise__ = __webpack_require__(172);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_fromPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_fromPromise__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_operator_map__);
@@ -17119,8 +17089,14 @@ var RouterConfigLoader = (function () {
             return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_fromPromise__["fromPromise"])(this.loader.load(loadChildren));
         }
         else {
-            var /** @type {?} */ offlineMode_1 = this.compiler instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["Compiler"];
-            return __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_mergeMap__["mergeMap"].call(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__utils_collection__["b" /* wrapIntoObservable */])(loadChildren()), function (t) { return offlineMode_1 ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__["of"])(/** @type {?} */ (t)) : __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_fromPromise__["fromPromise"])(_this.compiler.compileModuleAsync(t)); });
+            return __WEBPACK_IMPORTED_MODULE_4_rxjs_operator_mergeMap__["mergeMap"].call(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__utils_collection__["b" /* wrapIntoObservable */])(loadChildren()), function (t) {
+                if (t instanceof __WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModuleFactory"]) {
+                    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__["of"])(t);
+                }
+                else {
+                    return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_fromPromise__["fromPromise"])(_this.compiler.compileModuleAsync(t));
+                }
+            });
         }
     };
     return RouterConfigLoader;
@@ -17225,7 +17201,7 @@ function RouterConfigLoader_tsickle_Closure_declarations() {
 /* unused harmony reexport COMPILER_PROVIDERS */
 /* unused harmony reexport JitCompilerFactory */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_14__src_jit_compiler_factory__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_url_resolver__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_url_resolver__ = __webpack_require__(44);
 /* unused harmony reexport createUrlResolverWithoutPackagePrefix */
 /* unused harmony reexport createOfflineCompileUrlResolver */
 /* unused harmony reexport DEFAULT_PACKAGE_URL_PROVIDER */
@@ -17270,7 +17246,7 @@ function RouterConfigLoader_tsickle_Closure_declarations() {
 /* unused harmony reexport ERROR_COLLECTOR_TOKEN */
 /* unused harmony reexport CompileMetadataResolver */
 /* unused harmony reexport componentModuleUrl */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_ml_parser_html_parser__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__src_ml_parser_html_parser__ = __webpack_require__(42);
 /* unused harmony reexport ParseTreeResult */
 /* unused harmony reexport TreeError */
 /* unused harmony reexport HtmlParser */
@@ -17383,7 +17359,7 @@ function RouterConfigLoader_tsickle_Closure_declarations() {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__compile_metadata__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_collection__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_collection__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__facade_lang__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__injectable__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__parse_util__ = __webpack_require__(20);
@@ -19951,7 +19927,7 @@ function SelectorContext_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__injectable__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__output_output_ast__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shadow_css__ = __webpack_require__(339);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__url_resolver__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__url_resolver__ = __webpack_require__(44);
 /* unused harmony export StylesCompileDependency */
 /* unused harmony export StylesCompileResult */
 /* unused harmony export CompiledStylesheet */
@@ -20849,7 +20825,7 @@ function RouterOutletMap_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__animation_animation_compiler__ = __webpack_require__(188);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__compile_metadata__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__facade_collection__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__facade_collection__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__identifiers__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__output_output_ast__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__view_compiler_view_compiler__ = __webpack_require__(66);
@@ -24219,7 +24195,7 @@ function XmbPlaceholderMapper_tsickle_Closure_declarations() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tags__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tags__ = __webpack_require__(43);
 /* unused harmony export HtmlTagDefinition */
 /* harmony export (immutable) */ __webpack_exports__["a"] = getHtmlTagDefinition;
 /**
@@ -31602,7 +31578,7 @@ var /** @type {?} */ URL_WITH_SCHEMA_REGEXP = /^([^:/?#]+):/;
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__expression_parser_ast__ = __webpack_require__(130);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ml_parser_tags__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ml_parser_tags__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__parse_util__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__selector__ = __webpack_require__(95);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util__ = __webpack_require__(19);
@@ -32185,7 +32161,7 @@ function calcPossibleSecurityContexts(registry, selector, propName, isAttribute)
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ml_parser_tags__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ml_parser_tags__ = __webpack_require__(43);
 /* harmony export (immutable) */ __webpack_exports__["a"] = preparseElement;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return PreparsedElementType; });
 /* unused harmony export PreparsedElement */
@@ -32323,7 +32299,7 @@ function normalizeNgContentSelect(selectAttr) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__compile_query__ = __webpack_require__(208);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__constants__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__deps__ = __webpack_require__(139);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__util__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__util__ = __webpack_require__(45);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return CompileNode; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CompileElement; });
 /**
@@ -32832,10 +32808,10 @@ function createProviderProperty(propName, providerValueExpressions, isMulti, isE
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__compile_metadata__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_collection__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__facade_collection__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__identifiers__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__output_output_ast__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__util__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__util__ = __webpack_require__(45);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return CompileQuery; });
 /* harmony export (immutable) */ __webpack_exports__["a"] = createQueryList;
 /* harmony export (immutable) */ __webpack_exports__["c"] = addQueryToTokenMap;
@@ -33029,7 +33005,7 @@ function addQueryToTokenMap(map, query) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__compile_method__ = __webpack_require__(138);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__compile_pipe__ = __webpack_require__(341);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__compile_query__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__util__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__util__ = __webpack_require__(45);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return CompileViewRootNodeType; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return CompileViewRootNode; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CompileView; });
@@ -35245,23 +35221,19 @@ var RouteReuseStrategy = (function () {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_of__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_observable_of__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_router_link__ = __webpack_require__(167);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_router_link_active__ = __webpack_require__(259);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__directives_router_outlet__ = __webpack_require__(260);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__private_import_platform_browser__ = __webpack_require__(403);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__route_reuse_strategy__ = __webpack_require__(261);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__router__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__router_config_loader__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__router_outlet_map__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__router_preloader__ = __webpack_require__(263);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__router_state__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__url_handling_strategy__ = __webpack_require__(168);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__url_tree__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__utils_collection__ = __webpack_require__(29);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directives_router_link__ = __webpack_require__(167);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_router_link_active__ = __webpack_require__(259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_router_outlet__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__private_import_platform_browser__ = __webpack_require__(403);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__route_reuse_strategy__ = __webpack_require__(261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__router__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__router_config_loader__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__router_outlet_map__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__router_preloader__ = __webpack_require__(263);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__router_state__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__url_handling_strategy__ = __webpack_require__(168);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__url_tree__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__utils_collection__ = __webpack_require__(29);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ROUTER_CONFIGURATION; });
 /* unused harmony export ROUTER_FORROOT_GUARD */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return ROUTER_PROVIDERS; });
@@ -35272,9 +35244,7 @@ var RouteReuseStrategy = (function () {
 /* harmony export (immutable) */ __webpack_exports__["d"] = provideRoutes;
 /* unused harmony export setupRouter */
 /* unused harmony export rootRoute */
-/* unused harmony export RouterInitializer */
-/* unused harmony export getAppInitializer */
-/* unused harmony export getBootstrapListener */
+/* unused harmony export initialRouterNavigation */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return ROUTER_INITIALIZER; });
 /* unused harmony export provideRouterInitializer */
 /**
@@ -35299,13 +35269,11 @@ var RouteReuseStrategy = (function () {
 
 
 
-
-
 /**
  * @whatItDoes Contains a list of directives
  * @stable
  */
-var /** @type {?} */ ROUTER_DIRECTIVES = [__WEBPACK_IMPORTED_MODULE_6__directives_router_outlet__["a" /* RouterOutlet */], __WEBPACK_IMPORTED_MODULE_4__directives_router_link__["a" /* RouterLink */], __WEBPACK_IMPORTED_MODULE_4__directives_router_link__["b" /* RouterLinkWithHref */], __WEBPACK_IMPORTED_MODULE_5__directives_router_link_active__["a" /* RouterLinkActive */]];
+var /** @type {?} */ ROUTER_DIRECTIVES = [__WEBPACK_IMPORTED_MODULE_4__directives_router_outlet__["a" /* RouterOutlet */], __WEBPACK_IMPORTED_MODULE_2__directives_router_link__["a" /* RouterLink */], __WEBPACK_IMPORTED_MODULE_2__directives_router_link__["b" /* RouterLinkWithHref */], __WEBPACK_IMPORTED_MODULE_3__directives_router_link_active__["a" /* RouterLinkActive */]];
 /**
  * @whatItDoes Is used in DI to configure the router.
  * @stable
@@ -35317,29 +35285,29 @@ var /** @type {?} */ ROUTER_CONFIGURATION = new __WEBPACK_IMPORTED_MODULE_1__ang
 var /** @type {?} */ ROUTER_FORROOT_GUARD = new __WEBPACK_IMPORTED_MODULE_1__angular_core__["OpaqueToken"]('ROUTER_FORROOT_GUARD');
 var /** @type {?} */ ROUTER_PROVIDERS = [
     __WEBPACK_IMPORTED_MODULE_0__angular_common__["c" /* Location */],
-    { provide: __WEBPACK_IMPORTED_MODULE_15__url_tree__["d" /* UrlSerializer */], useClass: __WEBPACK_IMPORTED_MODULE_15__url_tree__["a" /* DefaultUrlSerializer */] },
+    { provide: __WEBPACK_IMPORTED_MODULE_13__url_tree__["d" /* UrlSerializer */], useClass: __WEBPACK_IMPORTED_MODULE_13__url_tree__["a" /* DefaultUrlSerializer */] },
     {
-        provide: __WEBPACK_IMPORTED_MODULE_9__router__["e" /* Router */],
+        provide: __WEBPACK_IMPORTED_MODULE_7__router__["e" /* Router */],
         useFactory: setupRouter,
         deps: [
-            __WEBPACK_IMPORTED_MODULE_1__angular_core__["ApplicationRef"], __WEBPACK_IMPORTED_MODULE_15__url_tree__["d" /* UrlSerializer */], __WEBPACK_IMPORTED_MODULE_11__router_outlet_map__["a" /* RouterOutletMap */], __WEBPACK_IMPORTED_MODULE_0__angular_common__["c" /* Location */], __WEBPACK_IMPORTED_MODULE_1__angular_core__["Injector"], __WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModuleFactoryLoader"],
-            __WEBPACK_IMPORTED_MODULE_1__angular_core__["Compiler"], __WEBPACK_IMPORTED_MODULE_10__router_config_loader__["a" /* ROUTES */], ROUTER_CONFIGURATION, [__WEBPACK_IMPORTED_MODULE_14__url_handling_strategy__["a" /* UrlHandlingStrategy */], new __WEBPACK_IMPORTED_MODULE_1__angular_core__["Optional"]()],
-            [__WEBPACK_IMPORTED_MODULE_8__route_reuse_strategy__["a" /* RouteReuseStrategy */], new __WEBPACK_IMPORTED_MODULE_1__angular_core__["Optional"]()]
+            __WEBPACK_IMPORTED_MODULE_1__angular_core__["ApplicationRef"], __WEBPACK_IMPORTED_MODULE_13__url_tree__["d" /* UrlSerializer */], __WEBPACK_IMPORTED_MODULE_9__router_outlet_map__["a" /* RouterOutletMap */], __WEBPACK_IMPORTED_MODULE_0__angular_common__["c" /* Location */], __WEBPACK_IMPORTED_MODULE_1__angular_core__["Injector"], __WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModuleFactoryLoader"],
+            __WEBPACK_IMPORTED_MODULE_1__angular_core__["Compiler"], __WEBPACK_IMPORTED_MODULE_8__router_config_loader__["a" /* ROUTES */], ROUTER_CONFIGURATION, [__WEBPACK_IMPORTED_MODULE_12__url_handling_strategy__["a" /* UrlHandlingStrategy */], new __WEBPACK_IMPORTED_MODULE_1__angular_core__["Optional"]()],
+            [__WEBPACK_IMPORTED_MODULE_6__route_reuse_strategy__["a" /* RouteReuseStrategy */], new __WEBPACK_IMPORTED_MODULE_1__angular_core__["Optional"]()]
         ]
     },
-    __WEBPACK_IMPORTED_MODULE_11__router_outlet_map__["a" /* RouterOutletMap */],
-    { provide: __WEBPACK_IMPORTED_MODULE_13__router_state__["a" /* ActivatedRoute */], useFactory: rootRoute, deps: [__WEBPACK_IMPORTED_MODULE_9__router__["e" /* Router */]] },
+    __WEBPACK_IMPORTED_MODULE_9__router_outlet_map__["a" /* RouterOutletMap */],
+    { provide: __WEBPACK_IMPORTED_MODULE_11__router_state__["a" /* ActivatedRoute */], useFactory: rootRoute, deps: [__WEBPACK_IMPORTED_MODULE_7__router__["e" /* Router */]] },
     { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModuleFactoryLoader"], useClass: __WEBPACK_IMPORTED_MODULE_1__angular_core__["SystemJsNgModuleLoader"] },
-    __WEBPACK_IMPORTED_MODULE_12__router_preloader__["d" /* RouterPreloader */],
-    __WEBPACK_IMPORTED_MODULE_12__router_preloader__["a" /* NoPreloading */],
-    __WEBPACK_IMPORTED_MODULE_12__router_preloader__["b" /* PreloadAllModules */],
+    __WEBPACK_IMPORTED_MODULE_10__router_preloader__["d" /* RouterPreloader */],
+    __WEBPACK_IMPORTED_MODULE_10__router_preloader__["a" /* NoPreloading */],
+    __WEBPACK_IMPORTED_MODULE_10__router_preloader__["b" /* PreloadAllModules */],
     { provide: ROUTER_CONFIGURATION, useValue: { enableTracing: false } },
 ];
 /**
  * @return {?}
  */
 function routerNgProbeToken() {
-    return new __WEBPACK_IMPORTED_MODULE_1__angular_core__["NgProbeToken"]('Router', __WEBPACK_IMPORTED_MODULE_9__router__["e" /* Router */]);
+    return new __WEBPACK_IMPORTED_MODULE_1__angular_core__["NgProbeToken"]('Router', __WEBPACK_IMPORTED_MODULE_7__router__["e" /* Router */]);
 }
 /**
  * \@whatItDoes Adds router directives and providers.
@@ -35383,7 +35351,7 @@ function routerNgProbeToken() {
  * In addition, we often want to split applications into multiple bundles and load them on demand.
  * Doing this transparently is not trivial.
  *
- * The Angular router solves these problems. Using the router, you can declaratively specify
+ * The Angular 2 router solves these problems. Using the router, you can declaratively specify
  * application states, manage state transitions while taking care of the URL, and load bundles on
  * demand.
  *
@@ -35421,7 +35389,7 @@ var RouterModule = (function () {
                 {
                     provide: ROUTER_FORROOT_GUARD,
                     useFactory: provideForRootGuard,
-                    deps: [[__WEBPACK_IMPORTED_MODULE_9__router__["e" /* Router */], new __WEBPACK_IMPORTED_MODULE_1__angular_core__["Optional"](), new __WEBPACK_IMPORTED_MODULE_1__angular_core__["SkipSelf"]()]]
+                    deps: [[__WEBPACK_IMPORTED_MODULE_7__router__["e" /* Router */], new __WEBPACK_IMPORTED_MODULE_1__angular_core__["Optional"](), new __WEBPACK_IMPORTED_MODULE_1__angular_core__["SkipSelf"]()]]
                 },
                 { provide: ROUTER_CONFIGURATION, useValue: config ? config : {} },
                 {
@@ -35432,9 +35400,9 @@ var RouterModule = (function () {
                     ]
                 },
                 {
-                    provide: __WEBPACK_IMPORTED_MODULE_12__router_preloader__["c" /* PreloadingStrategy */],
+                    provide: __WEBPACK_IMPORTED_MODULE_10__router_preloader__["c" /* PreloadingStrategy */],
                     useExisting: config && config.preloadingStrategy ? config.preloadingStrategy :
-                        __WEBPACK_IMPORTED_MODULE_12__router_preloader__["a" /* NoPreloading */]
+                        __WEBPACK_IMPORTED_MODULE_10__router_preloader__["a" /* NoPreloading */]
                 },
                 { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["NgProbeToken"], multi: true, useFactory: routerNgProbeToken },
                 provideRouterInitializer(),
@@ -35508,7 +35476,7 @@ function provideForRootGuard(router) {
 function provideRoutes(routes) {
     return [
         { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["ANALYZE_FOR_ENTRY_COMPONENTS"], multi: true, useValue: routes },
-        { provide: __WEBPACK_IMPORTED_MODULE_10__router_config_loader__["a" /* ROUTES */], multi: true, useValue: routes },
+        { provide: __WEBPACK_IMPORTED_MODULE_8__router_config_loader__["a" /* ROUTES */], multi: true, useValue: routes },
     ];
 }
 /**
@@ -35527,7 +35495,7 @@ function provideRoutes(routes) {
  */
 function setupRouter(ref, urlSerializer, outletMap, location, injector, loader, compiler, config, opts, urlHandlingStrategy, routeReuseStrategy) {
     if (opts === void 0) { opts = {}; }
-    var /** @type {?} */ router = new __WEBPACK_IMPORTED_MODULE_9__router__["e" /* Router */](null, urlSerializer, outletMap, location, injector, loader, compiler, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_16__utils_collection__["a" /* flatten */])(config));
+    var /** @type {?} */ router = new __WEBPACK_IMPORTED_MODULE_7__router__["e" /* Router */](null, urlSerializer, outletMap, location, injector, loader, compiler, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_14__utils_collection__["a" /* flatten */])(config));
     if (urlHandlingStrategy) {
         router.urlHandlingStrategy = urlHandlingStrategy;
     }
@@ -35538,7 +35506,7 @@ function setupRouter(ref, urlSerializer, outletMap, location, injector, loader, 
         router.errorHandler = opts.errorHandler;
     }
     if (opts.enableTracing) {
-        var /** @type {?} */ dom_1 = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7__private_import_platform_browser__["a" /* getDOM */])();
+        var /** @type {?} */ dom_1 = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_5__private_import_platform_browser__["a" /* getDOM */])();
         router.events.subscribe(function (e) {
             dom_1.logGroup("Router Event: " + ((e.constructor)).name);
             dom_1.log(e.toString());
@@ -35556,108 +35524,26 @@ function rootRoute(router) {
     return router.routerState.root;
 }
 /**
- * To initialize the router properly we need to do in two steps:
- *
- * We need to start the navigation in a APP_INITIALIZER to block the bootstrap if
- * a resolver or a guards executes asynchronously. Second, we need to actually run
- * activation in a BOOTSTRAP_LISTENER. We utilize the afterPreactivation
- * hook provided by the router to do that.
- *
- * The router navigation starts, reaches the point when preactivation is done, and then
- * pauses. It waits for the hook to be resolved. We then resolve it only in a bootstrap listener.
+ * @param {?} router
+ * @param {?} ref
+ * @param {?} preloader
+ * @param {?} opts
+ * @return {?}
  */
-var RouterInitializer = (function () {
-    /**
-     * @param {?} injector
-     */
-    function RouterInitializer(injector) {
-        this.injector = injector;
-        this.resultOfPreactivationDone = new __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__["Subject"]();
-    }
-    /**
-     * @return {?}
-     */
-    RouterInitializer.prototype.appInitializer = function () {
-        var _this = this;
-        var /** @type {?} */ p = this.injector.get(__WEBPACK_IMPORTED_MODULE_0__angular_common__["h" /* LOCATION_INITIALIZED */], Promise.resolve(null));
-        return p.then(function () {
-            var /** @type {?} */ resolve = null;
-            var /** @type {?} */ res = new Promise(function (r) { return resolve = r; });
-            var /** @type {?} */ router = _this.injector.get(__WEBPACK_IMPORTED_MODULE_9__router__["e" /* Router */]);
-            var /** @type {?} */ opts = _this.injector.get(ROUTER_CONFIGURATION);
-            if (opts.initialNavigation === false) {
-                router.setUpLocationChangeListener();
-            }
-            else {
-                router.hooks.afterPreactivation = function () {
-                    // only the initial navigation should be delayed
-                    if (!_this.initNavigation) {
-                        _this.initNavigation = true;
-                        resolve(true);
-                        return _this.resultOfPreactivationDone;
-                    }
-                    else {
-                        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3_rxjs_observable_of__["of"])(null);
-                    }
-                };
-                router.initialNavigation();
-            }
-            return res;
-        });
-    };
-    /**
-     * @param {?} bootstrappedComponentRef
-     * @return {?}
-     */
-    RouterInitializer.prototype.bootstrapListener = function (bootstrappedComponentRef) {
-        var /** @type {?} */ ref = this.injector.get(__WEBPACK_IMPORTED_MODULE_1__angular_core__["ApplicationRef"]);
+function initialRouterNavigation(router, ref, preloader, opts) {
+    return function (bootstrappedComponentRef) {
         if (bootstrappedComponentRef !== ref.components[0]) {
             return;
         }
-        var /** @type {?} */ preloader = this.injector.get(__WEBPACK_IMPORTED_MODULE_12__router_preloader__["d" /* RouterPreloader */]);
-        preloader.setUpPreloading();
-        var /** @type {?} */ router = this.injector.get(__WEBPACK_IMPORTED_MODULE_9__router__["e" /* Router */]);
         router.resetRootComponentType(ref.componentTypes[0]);
-        this.resultOfPreactivationDone.next(null);
-        this.resultOfPreactivationDone.complete();
+        preloader.setUpPreloading();
+        if (opts.initialNavigation === false) {
+            router.setUpLocationChangeListener();
+        }
+        else {
+            router.initialNavigation();
+        }
     };
-    RouterInitializer.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Injectable"] },
-    ];
-    /** @nocollapse */
-    RouterInitializer.ctorParameters = function () { return [
-        { type: __WEBPACK_IMPORTED_MODULE_1__angular_core__["Injector"], },
-    ]; };
-    return RouterInitializer;
-}());
-function RouterInitializer_tsickle_Closure_declarations() {
-    /** @type {?} */
-    RouterInitializer.decorators;
-    /**
-     * @nocollapse
-     * @type {?}
-     */
-    RouterInitializer.ctorParameters;
-    /** @type {?} */
-    RouterInitializer.prototype.initNavigation;
-    /** @type {?} */
-    RouterInitializer.prototype.resultOfPreactivationDone;
-    /** @type {?} */
-    RouterInitializer.prototype.injector;
-}
-/**
- * @param {?} r
- * @return {?}
- */
-function getAppInitializer(r) {
-    return r.appInitializer.bind(r);
-}
-/**
- * @param {?} r
- * @return {?}
- */
-function getBootstrapListener(r) {
-    return r.bootstrapListener.bind(r);
 }
 /**
  * A token for the router initializer that will be called after the app is bootstrapped.
@@ -35670,14 +35556,11 @@ var /** @type {?} */ ROUTER_INITIALIZER = new __WEBPACK_IMPORTED_MODULE_1__angul
  */
 function provideRouterInitializer() {
     return [
-        RouterInitializer,
         {
-            provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["APP_INITIALIZER"],
-            multi: true,
-            useFactory: getAppInitializer,
-            deps: [RouterInitializer]
+            provide: ROUTER_INITIALIZER,
+            useFactory: initialRouterNavigation,
+            deps: [__WEBPACK_IMPORTED_MODULE_7__router__["e" /* Router */], __WEBPACK_IMPORTED_MODULE_1__angular_core__["ApplicationRef"], __WEBPACK_IMPORTED_MODULE_10__router_preloader__["d" /* RouterPreloader */], ROUTER_CONFIGURATION]
         },
-        { provide: ROUTER_INITIALIZER, useFactory: getBootstrapListener, deps: [RouterInitializer] },
         { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["APP_BOOTSTRAP_LISTENER"], multi: true, useExisting: ROUTER_INITIALIZER },
     ];
 }
@@ -35691,7 +35574,7 @@ function provideRouterInitializer() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_from__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_from___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_from__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_catch__ = __webpack_require__(173);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_operator_catch__);
@@ -35933,8 +35816,7 @@ function RouterPreloader_tsickle_Closure_declarations() {
 /* 289 */,
 /* 290 */,
 /* 291 */,
-/* 292 */,
-/* 293 */
+/* 292 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35950,7 +35832,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = __webpack_require__(1);
-const rest_service_1 = __webpack_require__(294);
+const rest_service_1 = __webpack_require__(293);
 let HomeComponent = class HomeComponent {
     constructor(restService) {
         this.restService = restService;
@@ -35966,7 +35848,7 @@ exports.HomeComponent = HomeComponent;
 
 
 /***/ }),
-/* 294 */
+/* 293 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36021,6 +35903,7 @@ exports.RestService = RestService;
 
 
 /***/ }),
+/* 294 */,
 /* 295 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -36029,14 +35912,14 @@ exports.RestService = RestService;
 Object.defineProperty(exports, "__esModule", { value: true });
 const styles = __webpack_require__(407);
 const platform_browser_dynamic_1 = __webpack_require__(375);
-const app_module_1 = __webpack_require__(678);
+const app_module_1 = __webpack_require__(677);
 const core_1 = __webpack_require__(1);
 if (process.env.NODE_ENV == 'production') {
     core_1.enableProdMode();
 }
 platform_browser_dynamic_1.platformBrowserDynamic().bootstrapModule(app_module_1.AppModule);
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(75)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(82)))
 
 /***/ }),
 /* 296 */,
@@ -36181,7 +36064,7 @@ function StylesCollection_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__expression_parser_parser__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__i18n_i18n_html_parser__ = __webpack_require__(90);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__metadata_resolver__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ml_parser_html_parser__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ml_parser_html_parser__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ng_module_compiler__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ng_module_resolver__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__output_ts_emitter__ = __webpack_require__(135);
@@ -36190,7 +36073,7 @@ function StylesCollection_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__schema_dom_element_schema_registry__ = __webpack_require__(94);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__style_compiler__ = __webpack_require__(96);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__template_parser_template_parser__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__url_resolver__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__url_resolver__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__view_compiler_view_compiler__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__compiler__ = __webpack_require__(125);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__static_reflection_capabilities__ = __webpack_require__(126);
@@ -36434,12 +36317,12 @@ function WrappedError_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__directive_normalizer__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__directive_resolver__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__metadata_resolver__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ml_parser_html_parser__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ml_parser_html_parser__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ml_parser_interpolation_config__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ng_module_resolver__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pipe_resolver__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__schema_dom_element_schema_registry__ = __webpack_require__(94);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__url_resolver__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__url_resolver__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__i18n_html_parser__ = __webpack_require__(90);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__message_bundle__ = __webpack_require__(196);
 /* unused harmony export Extractor */
@@ -36918,7 +36801,7 @@ function PlaceholderRegistry_tsickle_Closure_declarations() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ml_parser_html_parser__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ml_parser_html_parser__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__parse_util__ = __webpack_require__(91);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TranslationBundle; });
 /**
@@ -37145,7 +37028,7 @@ function I18nToHtmlVisitor_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__i18n_index__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__injectable__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__metadata_resolver__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ml_parser_html_parser__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ml_parser_html_parser__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ng_module_compiler__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ng_module_resolver__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pipe_resolver__ = __webpack_require__(64);
@@ -37156,7 +37039,7 @@ function I18nToHtmlVisitor_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__style_compiler__ = __webpack_require__(96);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__summary_resolver__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__template_parser_template_parser__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__url_resolver__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__url_resolver__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__view_compiler_view_compiler__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__compiler__ = __webpack_require__(200);
 /* unused harmony export COMPILER_PROVIDERS */
@@ -37617,7 +37500,7 @@ function _expandDefaultForm(ast, errors) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__chars__ = __webpack_require__(88);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__parse_util__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__interpolation_config__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tags__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tags__ = __webpack_require__(43);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return TokenType; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return Token; });
 /* unused harmony export TokenError */
@@ -38598,7 +38481,7 @@ function mergeTextTokens(srcTokens) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tags__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tags__ = __webpack_require__(43);
 /* unused harmony export XmlTagDefinition */
 /* harmony export (immutable) */ __webpack_exports__["a"] = getXmlTagDefinition;
 /**
@@ -40197,7 +40080,7 @@ function escapeBlocks(input) {
 /**
  * @stable
  */
-var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Version"]('2.4.8');
+var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Version"]('2.4.9');
 //# sourceMappingURL=version.js.map
 
 /***/ }),
@@ -40209,7 +40092,7 @@ var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__compiler_util_identifier_util__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__identifiers__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__output_output_ast__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__util__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__util__ = __webpack_require__(45);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CompilePipe; });
 /**
  * @license
@@ -40344,7 +40227,7 @@ function _findPipeMeta(view, name) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__identifiers__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__output_output_ast__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__compile_method__ = __webpack_require__(138);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__util__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__util__ = __webpack_require__(45);
 /* harmony export (immutable) */ __webpack_exports__["a"] = bindOutputs;
 /**
  * @license
@@ -40597,7 +40480,7 @@ function bindPipeDestroyLifecycleCallbacks(pipeMeta, pipeInstance, view) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__private_import_core__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__template_parser_template_ast__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__constants__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__util__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__util__ = __webpack_require__(45);
 /* harmony export (immutable) */ __webpack_exports__["a"] = bindRenderText;
 /* harmony export (immutable) */ __webpack_exports__["b"] = bindRenderInputs;
 /* harmony export (immutable) */ __webpack_exports__["d"] = bindDirectiveHostProps;
@@ -41010,7 +40893,7 @@ function ViewBinderVisitor_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__compile_view__ = __webpack_require__(209);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__constants__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__deps__ = __webpack_require__(139);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__util__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__util__ = __webpack_require__(45);
 /* harmony export (immutable) */ __webpack_exports__["a"] = buildView;
 /* harmony export (immutable) */ __webpack_exports__["b"] = finishView;
 /**
@@ -42010,7 +41893,7 @@ function JsonpModule_tsickle_Closure_declarations() {
 /**
  * @stable
  */
-var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Version"]('2.4.8');
+var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Version"]('2.4.9');
 //# sourceMappingURL=version.js.map
 
 /***/ }),
@@ -42345,7 +42228,7 @@ var CachedResourceLoader = (function (_super) {
 /**
  * @stable
  */
-var VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Version"]('2.4.8');
+var VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Version"]('2.4.9');
 //# sourceMappingURL=version.js.map
 
 /***/ }),
@@ -42425,7 +42308,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_from__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_from___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_from__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_observable_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_catch__ = __webpack_require__(173);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_operator_catch__);
@@ -42437,11 +42320,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeMap__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_operator_mergeMap__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_util_EmptyError__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_util_EmptyError__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_util_EmptyError___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_util_EmptyError__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__router_config_loader__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__shared__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__url_tree__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__url_tree__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__utils_collection__ = __webpack_require__(29);
 /* harmony export (immutable) */ __webpack_exports__["a"] = applyRedirects;
 /**
@@ -43233,7 +43116,7 @@ function getFullPath(parentPath, currentRoute) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_BehaviorSubject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__router_state__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_tree__ = __webpack_require__(169);
@@ -43332,7 +43215,7 @@ function createActivatedRoute(c) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__shared__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__url_tree__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__url_tree__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__utils_collection__ = __webpack_require__(29);
 /* harmony export (immutable) */ __webpack_exports__["a"] = createUrlTree;
 /**
@@ -43768,7 +43651,7 @@ function compare(path, params, segment) {
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_9__shared__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__url_handling_strategy__ = __webpack_require__(168);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_10__url_handling_strategy__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__url_tree__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__url_tree__ = __webpack_require__(46);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_11__url_tree__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_11__url_tree__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_11__url_tree__["c"]; });
@@ -43865,11 +43748,11 @@ var /** @type {?} */ getDOM = __WEBPACK_IMPORTED_MODULE_0__angular_platform_brow
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_of__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_of__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_of___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_of__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__router_state__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared__ = __webpack_require__(27);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__url_tree__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__url_tree__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__utils_collection__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__utils_tree__ = __webpack_require__(169);
 /* harmony export (immutable) */ __webpack_exports__["a"] = recognize;
@@ -44287,7 +44170,7 @@ function getResolve(route) {
 /**
  * @stable
  */
-var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Version"]('3.4.8');
+var /** @type {?} */ VERSION = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["Version"]('3.4.9');
 //# sourceMappingURL=version.js.map
 
 /***/ }),
@@ -44313,7 +44196,7 @@ module.exports = "<header>\r\n\t<nav>\r\n\t\t<div class=\"menu\" (click)=\"toggl
 /* 410 */
 /***/ (function(module, exports) {
 
-module.exports = "<section>\r\n\r\n</section>\r\n"
+module.exports = "<section>\r\nTesting\r\n</section>\r\n"
 
 /***/ }),
 /* 411 */,
@@ -44582,8 +44465,7 @@ module.exports = "<section>\r\n\r\n</section>\r\n"
 /* 674 */,
 /* 675 */,
 /* 676 */,
-/* 677 */,
-/* 678 */
+/* 677 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44598,9 +44480,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = __webpack_require__(1);
 const http_1 = __webpack_require__(241);
 const platform_browser_1 = __webpack_require__(72);
-const rest_service_1 = __webpack_require__(294);
-const app_routing_1 = __webpack_require__(679);
-const _1 = __webpack_require__(682);
+const rest_service_1 = __webpack_require__(293);
+const app_routing_1 = __webpack_require__(678);
+const _1 = __webpack_require__(681);
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -44619,7 +44501,7 @@ exports.AppModule = AppModule;
 
 
 /***/ }),
-/* 679 */
+/* 678 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44634,7 +44516,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = __webpack_require__(1);
 const router_1 = __webpack_require__(395);
 // Components
-const home_component_1 = __webpack_require__(293);
+const home_component_1 = __webpack_require__(292);
 const routes = [
     // Root
     // { path: 'home',  component: HomeComponent},
@@ -44656,7 +44538,7 @@ exports.AppRoutingModule = AppRoutingModule;
 
 
 /***/ }),
-/* 680 */
+/* 679 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44687,7 +44569,7 @@ exports.AppComponent = AppComponent;
 
 
 /***/ }),
-/* 681 */
+/* 680 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44727,7 +44609,7 @@ exports.NavigationComponent = NavigationComponent;
 
 
 /***/ }),
-/* 682 */
+/* 681 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44736,12 +44618,13 @@ function __export(m) {
     for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
 Object.defineProperty(exports, "__esModule", { value: true });
-__export(__webpack_require__(293));
-__export(__webpack_require__(681));
+__export(__webpack_require__(292));
 __export(__webpack_require__(680));
+__export(__webpack_require__(679));
 
 
 /***/ }),
+/* 682 */,
 /* 683 */,
 /* 684 */,
 /* 685 */

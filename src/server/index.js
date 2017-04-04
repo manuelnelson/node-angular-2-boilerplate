@@ -10,7 +10,7 @@ import httpStatus from 'http-status';
 import cookieParser from 'cookie-parser';
 import expressWinston from 'express-winston';
 import expressValidation from 'express-validation';
-import config from './config.json';
+import config from './config';
 import winstonInstance from './config/winston';
 import initializeDb from './db';
 import middleware from './middleware';
@@ -59,6 +59,8 @@ initializeDb( db => {
 
 	// api router
 	app.use('/api', api({ config, db }));
+	// api router
+	app.use('/', express.static('/index.html'));
 
 	// if error is not an instanceOf APIError, convert it.
 	app.use((err, req, res, next) => {

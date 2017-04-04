@@ -52,7 +52,7 @@ var _expressValidation = require('express-validation');
 
 var _expressValidation2 = _interopRequireDefault(_expressValidation);
 
-var _config = require('./config.json');
+var _config = require('./config');
 
 var _config2 = _interopRequireDefault(_config);
 
@@ -94,10 +94,10 @@ var app = (0, _express2.default)();
 	app.use(_bodyParser2.default.json());
 	app.use(_bodyParser2.default.urlencoded({ extended: true }));
 	app.use((0, _cookieParser2.default)());
-	//https://github.com/helmetjs/helmet
+	//https://github.com/expressjs/compression
 	app.use((0, _compression2.default)());
 
-	//https://github.com/helmetjs/helmet
+	//https://github.com/helmetjs/helmet aka security add-on
 	app.use((0, _helmet2.default)());
 
 	app.use((0, _cors2.default)({
@@ -120,6 +120,8 @@ var app = (0, _express2.default)();
 
 	// api router
 	app.use('/api', (0, _api2.default)({ config: _config2.default, db: db }));
+	// api router
+	app.use('/', _express2.default.static('/index.html'));
 
 	// if error is not an instanceOf APIError, convert it.
 	app.use(function (err, req, res, next) {
