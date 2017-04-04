@@ -1,11 +1,13 @@
 Express & ES6 REST API Boilerplate
 ==================================
 
-[![bitHound Score](https://www.bithound.io/github/developit/express-es6-rest-api/badges/score.svg)](https://www.bithound.io/github/developit/express-es6-rest-api)
 
-This is a straightforward boilerplate for building REST APIs with ES6 and Express.
+[![bitHound Overall Score](https://www.bithound.io/github/manuelnelson/node-angular-2-boilerplate/badges/score.svg)](https://www.bithound.io/github/manuelnelson/node-angular-2-boilerplate)
 
-- ES6 support via [babel](https://babeljs.io)
+This is a straightforward boilerplate for building REST APIs with ES6 and Express in conjunction with an Angular 2 project using Typescript and Webpack.
+
+- Angular Two via [angular](https://angular.io/)
+- Backend ES6 support via [babel](https://babeljs.io)
 - REST resources as middleware via [resource-router-middleware](https://github.com/developit/resource-router-middleware)
 - CORS support via [cors](https://github.com/troygoode/node-cors)
 - Body Parsing via [body-parser](https://github.com/expressjs/body-parser)
@@ -17,8 +19,8 @@ Getting Started
 
 ```sh
 # clone it
-git clone git@github.com:developit/express-es6-rest-api.git
-cd express-es6-rest-api
+git clone git@github.com:manuelnelson/node-angular-2-boilerplate.git
+cd node-angular-2-boilerplate
 
 # Make it your own
 rm -rf .git && git init && npm init
@@ -27,15 +29,16 @@ rm -rf .git && git init && npm init
 npm install
 
 # Start development live-reload server
-PORT=8080 npm run dev
+npm run start:dev
 
 # Start production server:
-PORT=8080 npm start
+npm start
+
 ```
 Docker Support
 ------
 ```sh
-cd express-es6-rest-api
+cd node-angular-2-boilerplate
 
 # Build your docker
 docker build -t es6/api-service .
