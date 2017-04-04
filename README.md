@@ -1,4 +1,4 @@
-Express & ES6 REST API Boilerplate
+Angular 2 & Express & ES6 REST API Boilerplate
 ==================================
 
 
